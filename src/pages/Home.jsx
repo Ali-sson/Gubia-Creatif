@@ -21,19 +21,11 @@ import { Link } from "react-scroll";
 
 
 
-
-
-
-
-
-
-
-
 const Home = () => {
   return (
     <>
     <section className="bg-[linear-gradient(120deg,#0d0d0d_0%,#1a1a1a_60%,#ffde59_95%)]
-     py-20 min-h-screen flex items-center mt-16 overflow-hidden">
+     py-0 mb-40 min-h-screen flex items-center overflow-hidden">
   {/* <div
     className="absolute inset-0 bg-cover bg-center opacity-50 md:hidden"
     style={{ backgroundImage: `url(${hero})` }}
@@ -49,11 +41,6 @@ const Home = () => {
 
   {/* Medium bubble */}
   <div className="absolute w-28 h-28 bg-[#FFF2BF] rounded-full blur-[50px] opacity-75 bottom-12 left-12"></div>
-{/* 
-  {/* White highlight bubble 
-  <div className="absolute w-10 h-10 bg-white rounded-full opacity-60 top-48 left-1/2 transform -translate-x-1/2"></div>
-   <div className="absolute w-10 h-10 bg-[#FFC928] rounded-full opacity-60 top-42 left-180 transform -translate-x-1/2"></div>
-    <div className="absolute w-10 h-10 bg-white rounded-full opacity-60 top-37 left-192 transform -translate-x-1/2"></div> */}
 </div>
 
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
