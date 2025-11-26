@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
     <section className="bg-[linear-gradient(120deg,#0d0d0d_0%,#1a1a1a_60%,#ffde59_95%)]
-     py-0 mb-40 min-h-screen flex items-center overflow-hidden">
+     py-0 mb-10 min-h-screen flex items-center overflow-hidden">
   {/* <div
     className="absolute inset-0 bg-cover bg-center opacity-50 md:hidden"
     style={{ backgroundImage: `url(${hero})` }}
@@ -90,9 +90,9 @@ const Home = () => {
     </section>
 
     
-    <section className='max-w-7xl m-auto flex py-6 px-10 justify-between bg-[white] text-black flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6'>
+    <section className='max-w-7xl m-auto mb-10 flex py-10 px-10 justify-between bg-[white] text-black flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6'>
      <div data-aos="fade-right" data-aos-delay="100"
-      className='flex-1 md:mt-50'>
+      className='flex-1 md:mt-0'>
       <h1 className='text-2xl font-medium mb-4 border-t-4 border-[#FFC928] pt-2 inline-block'>Welcome To the</h1>
       <h2 className='text-3xl font-bold mb-4'>Best Cleaning Company in Kaduna</h2>
       <p className='mb-4 italic text-xl font-medium text-gray-600 tracking-tight'>
@@ -149,12 +149,12 @@ const Home = () => {
     <section data-aos="fade-up" data-aos-delay="500"
     className='flex justify-center flex-col items-center text-center px-10 py-0'>
 
-      <h3 className='text-2xl font-medium mb-4 border-t-4 border-[#FFC928] pt-2 inline-block'>At gubia+ Creatif</h3>
+      <h3 className='text-2xl font-medium mb-4 border-t-4 border-[#FFC928] pt-6 inline-block'>At gubia+ Creatif</h3>
       <h1 className='text-3xl text-gray-900 font-bold mb-4 tracking-normal'>Meeting Your Needs And Making Your Environment Clean <br /> Is Paramount To Us.</h1>
       <p className='text-gray-900'>We offer various cleaning services ranging from domestic household cleaning to commercial premises cleaning.
          You get maximum <br/>  comfort and peace of mind when we do your cleaning for you</p>
 
-<section className="px-10 py-20">
+<section className="px-1  py-2">
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-start">
 
     {/* LEFT IMAGE */}
@@ -167,7 +167,7 @@ const Home = () => {
     </div>
 
     {/* RIGHT SIDE SERVICES */}
-    <div className="flex flex-col space-y-10">
+    <div className="flex flex-col space-y-5">
 
       {/* Service 1 */}
       <div className="md:flex items-center gap-4 shadow-lg w-full max-w-lg p-6 md:p-5 rounded-xl">
@@ -179,7 +179,7 @@ const Home = () => {
       </div>
 
       {/* Service 2 */}
-      <div className="md:flex items-center gap-4 shadow-lgw-full max-w-lg p-6 md:p-5  rounded-xl">
+      <div className="md:flex items-center gap-4 shadow-lg w-full max-w-lg p-6 md:p-5 rounded-xl">
         <FaIndustry className="text-7xl text-[#FFC928] flex-shrink-0 md:mb-2" />
         <div>
           <h1 className="text-2xl font-bold text-left mb-2">Industrial/Green Cleaning</h1>
@@ -188,7 +188,7 @@ const Home = () => {
       </div>
 
       {/* Service 3 */}
-      <div className="md:flex items-center gap-4 shadow-lg w-full max-w-lg p-6 md:p-5 rounded-xl">
+      <div className="md:flex items-center gap-4 shadow-lg p-5 rounded-xl">
         <FaCity className="text-7xl text-[#FFC928] flex-shrink-0 md:mb-2" />
         <div>
           <h1 className="text-2xl font-bold text-left mb-2">Commercial Cleaning</h1>
@@ -200,7 +200,7 @@ const Home = () => {
   </div>
 </section>
     </section>
-      <div className='flex justify-center py-2 mb-20 border-b-2 border-[#FFC928] px-10'>
+      <div className='flex justify-center py-2 m-20 border-b-2 border-[#FFC928] px-10'>
       <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
             View All Services
           </button>
