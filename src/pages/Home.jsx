@@ -170,7 +170,7 @@ const Home = () => {
     <div className="flex flex-col space-y-10">
 
       {/* Service 1 */}
-      <div className="md:flex items-center gap-4 shadow-lg p-4 rounded-xl">
+      <div className="md:flex items-center gap-4 shadow-lg w-full max-w-lg p-6 md:p-5 rounded-xl">
         <FaHome className="text-7xl text-[#FFC928] flex-shrink-0 md:mb-2" />
         <div>
           <h1 className="text-2xl font-bold text-left mb-2">Residential Cleaning</h1>
@@ -179,7 +179,7 @@ const Home = () => {
       </div>
 
       {/* Service 2 */}
-      <div className="md:flex items-center gap-4 shadow-lg p-4 rounded-xl">
+      <div className="md:flex items-center gap-4 shadow-lgw-full max-w-lg p-6 md:p-5  rounded-xl">
         <FaIndustry className="text-7xl text-[#FFC928] flex-shrink-0 md:mb-2" />
         <div>
           <h1 className="text-2xl font-bold text-left mb-2">Industrial/Green Cleaning</h1>
@@ -188,7 +188,7 @@ const Home = () => {
       </div>
 
       {/* Service 3 */}
-      <div className="md:flex items-center gap-4 shadow-lg  rounded-xl">
+      <div className="md:flex items-center gap-4 shadow-lg w-full max-w-lg p-6 md:p-5 rounded-xl">
         <FaCity className="text-7xl text-[#FFC928] flex-shrink-0 md:mb-2" />
         <div>
           <h1 className="text-2xl font-bold text-left mb-2">Commercial Cleaning</h1>
