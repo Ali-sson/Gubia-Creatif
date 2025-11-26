@@ -17,6 +17,9 @@ const Navbar = () => {
                 <li><Link to="/about" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">About</Link></li>
                 <li><Link to="/services" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Services</Link></li>
                 <li><Link to="/contact" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Contact</Link></li>
+               
+               <li><Link to="/booking" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Booking</Link></li>
+           
             </ul>
 
   <button 
