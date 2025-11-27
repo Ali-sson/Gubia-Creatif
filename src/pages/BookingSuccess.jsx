@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function BookingSuccess() {
   const [booking, setBooking] = useState(null);
-  const yourWhatsAppNumber = "2348012345678";
+  const yourWhatsAppNumber = "2348028933263";
 
   useEffect(() => {
     const data = sessionStorage.getItem("bookingData");

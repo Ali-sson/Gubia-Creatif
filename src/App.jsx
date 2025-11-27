@@ -12,12 +12,13 @@ import BookingSuccess from "./pages/BookingSuccess";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
-
+ 
   useEffect(() => {
     AOS.init({
       duration: 1000, // animation duration
       once: true,     // animate only once
       offset: 100,    // trigger point
+      disable: () => window.innerWidth < 768, // disable on small screens
     });
   }, []);
 

@@ -16,10 +16,11 @@ const Navbar = () => {
                   className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Home</Link></li>
                 <li><Link to="/about" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">About</Link></li>
                 <li><Link to="/services" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Services</Link></li>
+                 <li><Link to="/booking" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Booking</Link></li>
                 <li><Link to="/contact" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Contact</Link></li>
                
-               <li><Link to="/booking" className="pb-1 border-b-2 border-transparent hover:border-[#FFC928] text-base">Booking</Link></li>
-           
+             
+              
             </ul>
 
   <button 
@@ -41,7 +42,8 @@ const Navbar = () => {
                 <li><Link to="/" onClick={()=>setOpen(false)}>Home</Link></li>
                 <li><Link to="/about" onClick={()=>setOpen(false)}>About</Link></li>
                 <li><Link to="/services" onClick={()=>setOpen(false)}>Services</Link></li>
-                <li><Link to="/contact" onClick={()=>setOpen(false)}>Contact</Link></li>
+                <li><Link to="/booking" onClick={()=>setOpen(false)}>Booking</Link></li>
+                 <li><Link to="/contact" onClick={()=>setOpen(false)}>Contact</Link></li>
             </ul>
         )}
     </nav> 
