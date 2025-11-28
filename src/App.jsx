@@ -23,9 +23,11 @@ function App() {
     });
   }, []);
 
-  useEffect(() => {
-    AOS.refresh(); // refresh animations on every route change
-  }, [location.pathname]);
+useEffect(() => {
+  setTimeout(() => {
+    AOS.refreshHard(); // force re-detect all AOS elements
+  }, 50);
+}, [location.pathname]);
 
   return (
     <div>
