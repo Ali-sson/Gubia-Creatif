@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <>
     <section className="bg-[linear-gradient(120deg,#0d0d0d_0%,#1a1a1a_60%,#ffde59_95%)]
-     py-0 mb-10 min-h-screen flex items-center overflow-hidden">
+     py-0 mb-10 min-h-screen flex items-center">
   {/* <div
     className="absolute inset-0 bg-cover bg-center opacity-50 md:hidden"
     style={{ backgroundImage: `url(${hero})` }}
@@ -50,11 +50,11 @@ const Home = () => {
 
         {/* LEFT TEXT */}
         <div>
-          <h1 data-aos="fade-left" className="text-4xl md:text-5xl font-bold text-white leading-tight">
+          <h1 data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} className="text-4xl md:text-5xl font-bold text-white leading-tight">
             Professional and Affordable cleaning Service in Kaduna.
           </h1>
 
-          <p data-aos="fade-right" data-aos-delay="500" 
+          <p data-aos={window.innerWidth < 768 ? "fade-up" : "fade-right"} data-aos-delay="500" 
           className="text-gray-100 mt-4 text-lg">
             Experience a higher standard of cleanliness — delivering spotless
             homes, offices, and commercial spaces with care, precision, and a
@@ -94,7 +94,7 @@ const Home = () => {
 
     
     <section className='max-w-7xl m-auto mb-10 flex py-10 px-10 justify-between bg-[white] text-black flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6'>
-     <div data-aos="fade-right" data-aos-delay="100"
+     <div data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} data-aos-delay="100"
       className='flex-1 md:mt-0'>
       <h1 className='text-2xl font-medium mb-4 border-t-4 border-[#FFC928] pt-2 inline-block'>Welcome To the</h1>
       <h2 className='text-3xl font-bold mb-4'>Best Cleaning Company in Kaduna</h2>
@@ -127,7 +127,7 @@ const Home = () => {
 
            {/* second Card section */}
 
-     <div data-aos="fade-left" data-aos-delay="500">
+     <div data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} data-aos-delay="500">
       <div className='max-w-sm bg-white shadow-[0_8px_30px_rgba(0,0,0,0.15)] p-6 rounded-xl mt-6'>
            <FontAwesomeIcon icon={faCertificate} className="text-[#FFC928] text-6xl mb-4" />
 
@@ -149,7 +149,7 @@ const Home = () => {
 
     {/* Service OverView */}
 
-    <section data-aos="fade-up" data-aos-delay="500"
+    <section data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} data-aos-delay="500"
     className='flex justify-center flex-col items-center text-center px-10 py-0'>
 
       <h3 className='text-2xl font-medium mb-4 border-t-4 border-[#FFC928] pt-6 inline-block'>At gubia+ Creatif</h3>
@@ -212,7 +212,7 @@ const Home = () => {
 
 
     
-    <section data-aos="fade-up" data-aos-delay="500"
+    <section data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} data-aos-delay="500"
      className='max-w-7xl m-auto flex py-6 px-10 justify-between bg-[white] text-black flex-col md:flex-row space-y-6 md:space-y-0
      md:space-x-6'>
      <div className='flex-1'>

@@ -60,7 +60,7 @@ async function handleSubmit(e) {
   const whatsAppUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent('Hello! I\'d like a free quote for cleaning services.')}`;
 
   return (
-    <section data-aos="zoom-in" data-aos-delay="500"
+    <section data-aos={window.innerWidth < 768 ? "fade-up" : "zoom-in"} data-aos-delay="500"
     className="mb-20 px-6 py-5 bg-[#0d0d0d] text-white rounded-2xl shadow-2xl max-w-5xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left: Hero + actions */}

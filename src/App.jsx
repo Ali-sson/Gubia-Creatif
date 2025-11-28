@@ -15,17 +15,18 @@ import { Routes, Route, useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
 
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: false,
-      disable: () => window.innerWidth < 640, // safer disable for small screens
-    });
-  }, []);
+ useEffect(() => {
+  AOS.init({
+    duration: 800,
+    once: false,
+    disable: () => window.innerWidth < 380,
+  });
+}, []);
 
 useEffect(() => {
+  window.scrollTo(0, 0);
   setTimeout(() => {
-    AOS.refreshHard(); // force re-detect all AOS elements
+    AOS.refreshHard();
   }, 50);
 }, [location.pathname]);
 
