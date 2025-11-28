@@ -9,36 +9,37 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Booking from "./pages/Booking";
 import BookingSuccess from "./pages/BookingSuccess";
-import { Routes, Route } from "react-router-dom";
 
-const App = () => {
- 
+import { Routes, Route, useLocation } from "react-router-dom";
+
+function App() {
+  const location = useLocation();
+
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration
-      once: true,     // animate only once
-      offset: 100,    // trigger point
-      disable: () => window.innerWidth < 768, // disable on small screens
+      duration: 800,
+      once: false,
+      disable: () => window.innerWidth < 640, // safer disable for small screens
     });
   }, []);
+
+  useEffect(() => {
+    AOS.refresh(); // refresh animations on every route change
+  }, [location.pathname]);
 
   return (
     <div>
       <Navbar />
-
-     <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/booking" element={<Booking />} />
-          <Route path="/booking-success" element={<BookingSuccess />} />
-
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/booking-success" element={<BookingSuccess />} />
+      </Routes>
     </div>
   );
-};
+}
 
 export default App;
