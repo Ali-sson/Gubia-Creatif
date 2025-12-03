@@ -42,7 +42,7 @@ export default function Booking() {
   return (
     <>
     <Hero />
-    <div className="max-w-xl mx-auto p- mt-40">
+    <div className="max-w-xl mx-auto p- mt-20">
       <h2 className="text-3xl font-bold mb-4 text-center italic">Book a Cleaning Service</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4 bg-white p-5 rounded-lg shadow">
