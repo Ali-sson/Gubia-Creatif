@@ -5,8 +5,22 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Booking from "./pages/Booking";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
+
 export default function App() {
+    useEffect(() => {
+    AOS.init({
+      duration: 800,   // animation duration
+      once: false,     // allow animation every time on scroll
+    });
+  }, []);
+
   return (
+
     <>
       <Navbar />
 
