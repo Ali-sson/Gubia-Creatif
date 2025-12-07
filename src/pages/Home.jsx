@@ -26,9 +26,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <>
+   <div className="overflow-x-hidden w-full">
+
     <section className="bg-[linear-gradient(120deg,#0d0d0d_0%,#1a1a1a_60%,#ffde59_95%)]
-     py-0 mb-10 min-h-screen flex items-center">
+     py-0 mb-10 min-h-screen flex items-center overflow-x-hidden ">
   {/* <div
     className="absolute inset-0 bg-cover bg-center opacity-50 md:hidden"
     style={{ backgroundImage: `url(${hero})` }}
@@ -327,7 +328,7 @@ What They Say</h1>
 </section>
 
 <Footer />
-    </>
+    </div>
   )
 
 }
