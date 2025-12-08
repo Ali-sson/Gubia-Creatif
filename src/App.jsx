@@ -15,6 +15,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+import ScrollToTop from "./components/ScrollToTop";
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
 
     <>
       <Navbar />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -44,6 +46,7 @@ export default function App() {
       <Route path="/services/industrial" element={<Industrial />} />
       <Route path="/services/commercial" element={<Commercial />} />
       </Routes>
+      
     </>
   );
 }
