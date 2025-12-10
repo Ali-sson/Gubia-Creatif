@@ -1,6 +1,6 @@
 import React from "react";
 import HeroContact from "../components/HeroContact";
-import image from "../assets/ContactImage.jpeg";
+import image from "../assets/contactImage.jpeg";
 import Footer from "../components/Footer";
 import { Mail, Phone } from "lucide-react";
 
@@ -81,7 +81,7 @@ export default function Contact() {
               type="text"
               name="subject"
               placeholder="Subject"
-              className="w-full p-3 border border-gray-300 rounded-md bg-gray-50 focus:ring-2 focus:ring-blue-400 outline-none"
+              className="w-full p-3 border border-gray-300 rounded-md bg-gray-50 focus:ring-2 focus:ring-yellow-400 outline-none"
             />
 
             <textarea
