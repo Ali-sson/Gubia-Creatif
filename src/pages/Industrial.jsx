@@ -36,9 +36,11 @@ const Industrial = () => {
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+       <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -64,9 +66,11 @@ beauty of your surfaces with powerful, deep cleaning that lasts.
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
-           Book Service
+       <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
+            Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -92,9 +96,11 @@ your home or business — giving your space the comfort and cleanliness it deser
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -121,9 +127,11 @@ Let us handle the dirt while you enjoy a cleaner, healthier space.
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
-           Book Service
+       <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
+            Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -147,9 +155,11 @@ Enjoy a cleaner, safer, and pest-free environment with our trusted experts — b
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>

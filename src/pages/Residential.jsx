@@ -3,6 +3,8 @@ import MovingPic from '../assets/MovingPic.jpeg';
 import HouseCleaning from '../assets/HouseCleaning.jpeg';
 
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
 
 
 const Residential = () => {
@@ -30,9 +32,11 @@ const Residential = () => {
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+            <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -58,9 +62,11 @@ We use modern equipment and approved sanitation methods to eliminate bacteria, o
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
-           Book Service
+       <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
+            Book Service
           </button>
+          </Link>
           </div>
 
       </div>

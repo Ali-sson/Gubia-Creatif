@@ -1,7 +1,10 @@
 import React from 'react'
 import HeroService from '../components/HeroService.jsx'
-import MovingPic from '../assets/MovingPic.jpeg';
-import HouseCleaning from '../assets/HouseCleaning.jpeg';
+import office from '../assets/officeImage.jpeg'
+import event from '../assets/eventImage.jpeg'
+import rest from '../assets/resturantImage.jpeg'
+import vacation from '../assets/vacationImage.jpeg'
+
 import Footer from '../components/Footer.jsx';
 
 const Commercial = () => {
@@ -15,7 +18,7 @@ const Commercial = () => {
 
     <div className="flex flex-col md:flex-row gap-8 px-6 mb-20 items-center max-w-4xl mx-auto">
       <div>
-        <img src={MovingPic} alt="Moving Service"
+        <img src={office} alt="Office Cleaning Service"
         className="w-100 h-auto" />
       </div>
 
@@ -30,9 +33,11 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -43,7 +48,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
     
     <div className="flex flex-col md:flex-row md:flex-row-reverse gap-8 px-6 mb-20 items-center max-w-4xl mx-auto">
       <div>
-        <img src={HouseCleaning} alt="House Cleaning Service"
+        <img src={rest} alt="Restaurant Cleaning Service"
         className="w-100 h-auto" />
       </div>
 
@@ -57,9 +62,11 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
-           Book Service
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
+            Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -70,7 +77,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
     
     <div className="flex flex-col md:flex-row gap-8 px-6 mb-20 items-center max-w-4xl mx-auto">
       <div>
-        <img src={MovingPic} alt="Moving Service"
+        <img src={vacation} alt="Vacation Rental Cleaning Service"
         className="w-100 h-auto" />
       </div>
 
@@ -84,9 +91,11 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
             Book Service
           </button>
+          </Link>
           </div>
 
       </div>
@@ -97,7 +106,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         
     <div className="flex flex-col md:flex-row md:flex-row-reverse gap-8 px-6 mb-20 items-center max-w-4xl mx-auto">
       <div>
-        <img src={HouseCleaning} alt="House Cleaning Service"
+        <img src={event} alt="Events Cleaning Service"
         className="w-100 h-auto" />
       </div>
 
@@ -111,9 +120,11 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         </p>
 
           <div className='flex md:justify-start justify-center py-2 px-0'>
-      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
-           Book Service
+      <Link to="/Booking">
+      <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition cursor-pointer">
+            Book Service
           </button>
+          </Link>
           </div>
 
       </div>
