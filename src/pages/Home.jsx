@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Cta from '../components/Cta';
 import hero from '../assets/hero-cleaner-removebg-preview.png';
-import cleaner from '../assets/image-cleaner2.jpg';
+import cleaner from '../assets/image-cleaner2.jpeg';
 import client from '../assets/client.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,7 +17,10 @@ import { FaIndustry } from "react-icons/fa";
 import { FaCity } from "react-icons/fa";
 
 
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+
+
 
 
 
@@ -64,21 +67,23 @@ const Home = () => {
 
           <div 
            className="mt-8 flex gap-4 ">
+            <RouterLink to="/booking">
             <button className="bg-[#FFC928] text-black px-6 py-3 rounded-lg hover:bg-[#D4A017] transition cursor-pointer">
               Book a Cleaning
             </button>
+            </RouterLink>
 
-           <Link 
-  to="cta"
+ <ScrollLink
+  to="Cta"
   smooth={true}
   duration={600}
-  offset={-80}  // adjust for navbar height
+  offset={-80}
+  spy={true}
 >
   <button className="border border-[#FFC928] text-[#FFC928] px-6 py-3 rounded-lg transition cursor-pointer hover:bg-[#FFC928] hover:text-black">
     Get a Free Quote
   </button>
-</Link>
-
+</ScrollLink>
           </div>
         </div>
 
@@ -205,9 +210,11 @@ const Home = () => {
 </section>
     </section>
       <div className='flex justify-center py-2 m-20 border-b-2 border-[#FFC928] px-10'>
+        <RouterLink to="/services/residential-cleaning">
       <button className="bg-[#FFC928] text-black px-5 py-2 rounded-lg shadow hover:bg-[#D4A017] transition">
             View All Services
           </button>
+          </RouterLink>
           </div>
    
 
@@ -323,7 +330,7 @@ What They Say</h1>
 </div> */}
 
 
-<section id="cta">
+<section id="Cta">
   <Cta />
 </section>
 
