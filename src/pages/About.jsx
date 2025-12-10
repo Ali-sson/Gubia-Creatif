@@ -50,7 +50,7 @@ const About = () => {
             <p className="text-gray-700 leading-relaxed text-base md:text-lg">
               We’re available 24/7 to clean your building, office, or business 
               at your convenience, designing cleaning schedules that ensure a 
-              safe and clean environment for your staff and clients.
+              safe and clean environment for your staff and clients
             </p>
           </div>
 
