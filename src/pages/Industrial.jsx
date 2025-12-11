@@ -28,7 +28,7 @@ const Industrial = () => {
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Post Construction Clean-up</h2>
        
-        <p className="mb-4 text-gray-700 text-left">
+        <p className="mb-4 text-gray-700 text-center">
           Turn your new space into a spotless masterpiece.
         Our post-construction cleaning removes dust, debris, and fine particles, 
         leaving your property clean, safe, and ready to use.
@@ -58,7 +58,7 @@ const Industrial = () => {
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Pressure Cleaning </h2>
        
-        <p className="mb-4 text-gray-700 text-left">
+        <p className="mb-4 text-gray-700 text-center">
          Blast away dirt and grime with our expert pressure cleaning service.
 Perfect for driveways, walls, fences, pavements, and more — we restore the true 
 beauty of your surfaces with powerful, deep cleaning that lasts.
@@ -88,7 +88,7 @@ beauty of your surfaces with powerful, deep cleaning that lasts.
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Rest-room Sanitation</h2>
        
-        <p className="mb-4 text-gray-700 text-left">
+        <p className="mb-4 text-gray-700 text-center">
          Keep your restrooms fresh, hygienic, and spotless.
 Our restroom cleaning service ensures a clean, sanitized, and odor-free environment for 
 your home or business — giving your space the comfort and cleanliness it deserves.
@@ -118,7 +118,7 @@ your home or business — giving your space the comfort and cleanliness it deser
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Floor Cleaning</h2>
        
-        <p className="mb-4 text-gray-700 text-left">
+        <p className="mb-4 text-gray-700 text-center">
          Restore the beauty of your floors with our professional floor cleaning service — spotless,
          polished, and refreshed for a healthier environment.
 From tiles to hardwood, we ensure every surface shines like new. 
@@ -147,7 +147,7 @@ Let us handle the dirt while you enjoy a cleaner, healthier space.
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Fumigation Service</h2>
        
-        <p className="mb-4 text-gray-700 text-left">
+        <p className="mb-4 text-gray-700 text-center">
         Protect your home and business from pests with our professional fumigation service.
 Safe, effective, and guaranteed to restore your peace of mind.
 Enjoy a cleaner, safer, and pest-free environment with our trusted experts — book today!
