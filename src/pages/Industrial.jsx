@@ -1,7 +1,6 @@
+import { Link } from "react-router-dom";
 import React from 'react'
 import HeroService from "../components/HeroService"
-import MovingPic from '../assets/MovingPic.jpeg';
-import HouseCleaning from '../assets/HouseCleaning.jpeg';
 import construct from '../assets/construct.jpeg';
 import floor from '../assets/floor.jpeg';
 import fumigation from '../assets/fumigation.jpeg';
