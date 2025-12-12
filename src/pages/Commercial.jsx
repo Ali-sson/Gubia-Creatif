@@ -28,7 +28,7 @@ const Commercial = () => {
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Offices</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
          Create a healthier, more productive workplace with our professional office cleaning service.
 We keep your desks, floors, and common areas spotless, sanitized, and welcoming — so your team can focus on what matters most.
 Book now and let us maintain a clean, fresh, and organized office environment for you!
@@ -58,7 +58,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Restaurants</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
          We provide reliable and comprehensive restaurant
           cleaning services to ensure a safe, hygienic, and welcoming environment for your customers.”.
         </p>
@@ -87,7 +87,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Vacation Rentals</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
         We handle everything from deep cleaning to quick turnovers, fresh linens, restocking essentials, and ensuring every room feels brand-new. With our reliable team, fast response time,
          and attention to detail, you can focus on managing your property while we take care of keeping it guest-ready
         </p>
@@ -116,7 +116,7 @@ Book now and let us maintain a clean, fresh, and organized office environment fo
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Events Cleaning</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
         Whether it’s a wedding, birthday, concert, corporate event, or private party, our team delivers fast, efficient, and thorough cleaning tailored to your needs. From litter removal to floor care, 
         restroom cleaning, and post-event restoration, we handle every detail with precision and care.
         </p>

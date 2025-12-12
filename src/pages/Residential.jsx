@@ -25,7 +25,7 @@ const Residential = () => {
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Moving Service</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
           Our moving service includes packing, loading, transportation, unloading, and unpacking. We use high-quality packing 
           materials to ensure the safety of your belongings during transit. Our team is trained to handle fragile items with 
           care and to efficiently load and unload your possessions.
@@ -55,7 +55,7 @@ const Residential = () => {
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">House Sanitation</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
          Keep your home safe, fresh, and germ-free with our expert house sanitation services.
 We use modern equipment and approved sanitation methods to eliminate bacteria, odors, and harmful
  contaminants — ensuring a healthier environment for you and your family.

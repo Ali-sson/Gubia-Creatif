@@ -118,7 +118,7 @@ your home or business — giving your space the comfort and cleanliness it deser
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Floor Cleaning</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
          Restore the beauty of your floors with our professional floor cleaning service — spotless,
          polished, and refreshed for a healthier environment.
 From tiles to hardwood, we ensure every surface shines like new. 
@@ -147,7 +147,7 @@ Let us handle the dirt while you enjoy a cleaner, healthier space.
         <h2 className="text-2xl font-semibold mb-4 border-t-4 border-[#FFC928] 
         pt-2 inline-block ">Fumigation Service</h2>
        
-        <p className="mb-4 text-gray-700 text-center">
+        <p className="mb-4 text-gray-700 text-center md:text-left">
         Protect your home and business from pests with our professional fumigation service.
 Safe, effective, and guaranteed to restore your peace of mind.
 Enjoy a cleaner, safer, and pest-free environment with our trusted experts — book today!
