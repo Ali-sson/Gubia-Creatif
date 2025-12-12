@@ -51,7 +51,7 @@ export default function Footer() {
 
         {/* JOIN BUTTON */}
         <div>
-          <h3 className="font-semibold text-xl mb-4 text-[#FFC928]">Become a gubia+ cleaner Cleaner!</h3>
+          <h3 className="font-semibold text-xl mb-4 text-[#FFC928]">Become a gubia+ Creatif Cleaner!</h3>
           <p className="text-white mb-4">
             Want to join our team and develop your professional skills?
             We offer fantastic opportunities for growth in a supportive environment.
